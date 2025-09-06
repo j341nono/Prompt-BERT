@@ -1,4 +1,4 @@
-# このプロジェクトは [kongds/Prompt-BERT](https://github.com/kongds/Prompt-BERT) を Fork して改変したものです。
+**このプロジェクトは [kongds/Prompt-BERT](https://github.com/kongds/Prompt-BERT) を Fork して改変したものです。**
 
 # PromptBERT: Prompt makes BERT Better at Sentence Embeddings
 
