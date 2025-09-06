@@ -19,7 +19,7 @@ esac
 
 case "$EXP" in
 "unsup-bert")
-    CUDA_VISIBLE_DEVICES=0 python evaluation.py \
+    CUDA_VISIBLE_DEVICES=0 uv run evaluation.py \
         --model_name_or_path  $MODEL\
         --pooler avg\
         --mode test\
@@ -27,7 +27,7 @@ case "$EXP" in
         --mask_embedding_sentence_template "*cls*_This_sentence_of_\"*sent_0*\"_means*mask*.*sep+*"
     ;;
 "unsup-roberta")
-    CUDA_VISIBLE_DEVICES=0 python evaluation.py \
+    CUDA_VISIBLE_DEVICES=0 uv run evaluation.py \
         --model_name_or_path  $MODEL\
         --pooler avg\
         --mode test\
@@ -35,7 +35,7 @@ case "$EXP" in
         --mask_embedding_sentence_template "*cls*_This_sentence_:_'_*sent_0*_'_means*mask*.*sep+*"
     ;;
 "sup-bert")
-    CUDA_VISIBLE_DEVICES=0 python evaluation.py \
+    CUDA_VISIBLE_DEVICES=0 uv run evaluation.py \
         --model_name_or_path  $MODEL\
         --pooler avg\
         --mode test\
@@ -45,7 +45,7 @@ case "$EXP" in
         --mask_embedding_sentence_template "*cls*_This_sentence_of_\"*sent_0*\"_means*mask*.*sep+*"
     ;;
 "sup-roberta")
-    CUDA_VISIBLE_DEVICES=0 python evaluation.py \
+    CUDA_VISIBLE_DEVICES=0 uv run evaluation.py \
         --model_name_or_path  $MODEL\
         --pooler avg\
         --mode test\

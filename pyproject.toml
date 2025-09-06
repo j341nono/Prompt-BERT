@@ -1,0 +1,16 @@
+[project]
+name = "prompt-bert"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy==1.26.4",
+    "prettytable>=3.16.0",
+    "pybind11==2.12",
+    "scikit-learn>=1.7.1",
+    "scipy>=1.16.1",
+    "torch==2.0.1",
+    "tqdm>=4.67.1",
+    "transformers==4.33.3",
+]

@@ -1,3 +1,5 @@
+# このプロジェクトは [kongds/Prompt-BERT](https://github.com/kongds/Prompt-BERT) を Fork して改変したものです。
+
 # PromptBERT: Prompt makes BERT Better at Sentence Embeddings
 
 Update: We have extended our prompt-based method to LLMs in [scaling_sentemb](https://github.com/kongds/scaling_sentemb). [2023/08/01]
@@ -19,22 +21,8 @@ To evaluate the above models, please run the following script,
 bash eval_only.sh [unsup-bert|unsup-roberta|sup-bert|sup-roberta]
 ```
 ## Setup
-Install Dependencies
-
 ``` sh
-pip install -r requirements.txt
-```
-
-Download Data
-
-``` sh
-cd SentEval/data/downstream/
-bash download_dataset.sh
-cd -
-cd ./data
-bash download_wiki.sh
-bash download_nli.sh
-cd -
+./setup.sh
 ```
 
 ## Prompt with unfine-tuned BERT
