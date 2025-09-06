@@ -22,6 +22,9 @@ bash eval_only.sh [unsup-bert|unsup-roberta|sup-bert|sup-roberta]
 ```
 ## Setup
 ``` sh
+git clone git@github.com:j341nono/Prompt-BERT.git
+cd Prompt-BERT
+uv sync
 ./setup.sh
 ```
 
