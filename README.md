@@ -24,7 +24,7 @@ bash eval_only.sh [unsup-bert|unsup-roberta|sup-bert|sup-roberta]
 
 ### Quick Install
 ```sh
-curl -sSL https://raw.githubusercontent.com/j341nono/PromptBERT/main/setup_auto.sh | bash
+curl -sSL https://raw.githubusercontent.com/j341nono/Prompt-BERT/main/setup_auto.sh | bash
 ```
 
 ### Manual Install
