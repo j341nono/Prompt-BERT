@@ -21,6 +21,13 @@ To evaluate the above models, please run the following script,
 bash eval_only.sh [unsup-bert|unsup-roberta|sup-bert|sup-roberta]
 ```
 ## Setup
+
+### Quick Install
+```sh
+curl -sSL https://raw.githubusercontent.com/j341nono/PromptBERT/main/setup_auto.sh | bash
+```
+
+### Manual Install
 ``` sh
 git clone git@github.com:j341nono/Prompt-BERT.git
 cd Prompt-BERT
