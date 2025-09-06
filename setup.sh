@@ -8,6 +8,6 @@ cd -
 cd data
 bash download_nli.sh
 
-bash data/download_wiki.sh
+bash download_wiki.sh
 
 cd -
