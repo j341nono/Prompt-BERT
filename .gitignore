@@ -1,6 +1,12 @@
 .venv/
 __pycache__/
+
 SentEval/data/*
-!download_dataset.sh
+!SentEval/data/download_dataset.sh
+
 logs/
 job.sh
+
+data/*
+!data/download_nli.sh
+!data/download_wiki.sh
